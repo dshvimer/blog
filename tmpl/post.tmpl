@@ -1,11 +1,7 @@
 {{ define "post" }}
-<!doctype html>
-<html>
-    {{ template "head" }}
+{{ template "head" }}
 
-    <body>
-        <p>{{ .Body }}</p>
-    </body>
+  <p>{{ .Body }}</p>
 
-</html>
+{{ template "bottom" }}
 {{ end }}
